@@ -4,7 +4,7 @@
 
     <groupId>org.springframework.cloud.task.app</groupId>
     <artifactId>spark-cluster-task-app-dependencies</artifactId>
-    <version>1.2.0.BUILD-SNAPSHOT</version>
+    <version>1.2.0.RELEASE</version>
     <packaging>pom</packaging>
     <name>spark-cluster-task-app-dependencies</name>
     <description>Spring Cloud Task Spark Cluster App Dependencies</description>
@@ -25,7 +25,7 @@
             <dependency>
                 <groupId>org.springframework.cloud.task.app</groupId>
                 <artifactId>spring-cloud-starter-task-spark-cluster</artifactId>
-                <version>1.2.0.BUILD-SNAPSHOT</version>
+                <version>1.2.0.RELEASE</version>
             </dependency>
 			<dependency>
 				<groupId>org.apache.spark</groupId>

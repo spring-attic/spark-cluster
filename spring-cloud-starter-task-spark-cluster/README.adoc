@@ -23,6 +23,14 @@ $$spark.resource-files$$:: $$A comma separated list of files to be included with
 $$spark.rest-url$$:: $$The URL for the Spark REST API to be used (spark://host:port).$$ *($$String$$, default: `$$spark://localhost:6066$$`)*
 //end::configuration-properties[]
 
+== Building with Maven
+
+```
+$ ./mvnw clean install -PgenerateApps
+$ cd apps/spark-cluster-task
+$ ./mvnw clean package
+```
+
 == Example
 
 The following example assumes you have a Spark 1.6.3 cluster running. 

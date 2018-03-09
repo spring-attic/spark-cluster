@@ -49,4 +49,7 @@ java -jar spark-cluster-task-{version}.jar --spark.app-class=org.apache.spark.ex
 
 Then review the stdout log for the finished driver to make sure the app completed.
 
+== Contributing
+
+We welcome contributions! Follow this https://github.com/spring-cloud-task-app-starters/app-starters-release/blob/master/spring-cloud-task-app-starters-docs/src/main/asciidoc/contributing.adoc[link] for more information on how to contribute.
 //end::ref-doc[]

@@ -1,3 +1,5 @@
+# spark-cluster is no longer actively maintained by VMware, Inc.
+
 # Spark Cluster Task Application
 
 = PLEASE NOTE: This project is no longer actively developed.
